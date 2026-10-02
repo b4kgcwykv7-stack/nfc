@@ -16,7 +16,7 @@ import java.net.URLEncoder;
 import java.util.UUID;
 
 public class MainActivity extends Activity {
-    private static final String PLAYER_URL = "https://nfcnatal.rf.gd/smartv/player/";
+    private static final String PLAYER_URL = "https://nfcnatal.rf.gd/smartv/player.php";
     private WebView web;
     private SharedPreferences prefs;
 
@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
         try {
             PackageInfo p = getPackageManager().getPackageInfo(getPackageName(), 0);
             return p.versionName;
-        } catch (Exception e) { return "1.0.2"; }
+        } catch (Exception e) { return "1.0.3"; }
     }
 
     private void configureWebView() {
@@ -61,7 +61,7 @@ public class MainActivity extends Activity {
         s.setCacheMode(WebSettings.LOAD_DEFAULT);
         s.setAllowContentAccess(true);
         s.setAllowFileAccess(true);
-        s.setUserAgentString("Mozilla/5.0 (Linux; Android " + Build.VERSION.RELEASE + "; Android TV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 SmartvPlayer/1.0.2");
+        s.setUserAgentString("Mozilla/5.0 (Linux; Android " + Build.VERSION.RELEASE + "; Android TV) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36 SmartvPlayer/1.0.3");
         CookieManager cm = CookieManager.getInstance();
         cm.setAcceptCookie(true);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) cm.setAcceptThirdPartyCookies(web, true);
