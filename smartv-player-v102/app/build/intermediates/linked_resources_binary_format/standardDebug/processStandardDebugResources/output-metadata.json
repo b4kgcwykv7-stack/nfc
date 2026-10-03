@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "LINKED_RESOURCES_BINARY_FORMAT",
+    "kind": "Directory"
+  },
+  "applicationId": "br.com.smartv.player",
+  "variantName": "standardDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 108,
+      "versionName": "1.0.8",
+      "outputFile": "linked-resources-binary-format-standardDebug.ap_"
+    }
+  ],
+  "elementType": "File"
+}

@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "br.com.smartv.player.compat",
+  "variantName": "compatDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 108,
+      "versionName": "1.0.8-compat",
+      "outputFile": "app-compat-debug.apk"
+    }
+  ],
+  "elementType": "File",
+  "minSdkVersionForDexing": 19
+}

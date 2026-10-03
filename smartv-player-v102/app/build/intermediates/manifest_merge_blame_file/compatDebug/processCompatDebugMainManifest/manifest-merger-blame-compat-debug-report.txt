@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.com.smartv.player.compat"
+4    android:installLocation="auto"
+5    android:versionCode="108"
+6    android:versionName="1.0.8-compat" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+10        android:targetSdkVersion="35" />
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:2:5-67
+12-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:2:22-64
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:3:5-81
+13-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:3:22-78
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:4:5-68
+14-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:4:22-65
+15
+16    <uses-feature
+16-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:5:5-87
+17        android:name="android.software.leanback"
+17-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:5:19-59
+18        android:required="false" />
+18-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:5:60-84
+19    <uses-feature
+19-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:6:5-90
+20        android:name="android.hardware.touchscreen"
+20-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:6:19-62
+21        android:required="false" />
+21-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:6:63-87
+22
+23    <application
+24        android:allowBackup="false"
+24-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:7:18-45
+25        android:debuggable="true"
+26        android:extractNativeLibs="true"
+27        android:hardwareAccelerated="true"
+27-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:7:143-177
+28        android:label="Smartv Player Compat"
+28-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:7:115-142
+29        android:theme="@style/AppTheme"
+29-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:7:83-114
+30        android:usesCleartextTraffic="false" >
+30-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:7:46-82
+31        <activity
+31-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:8:9-17:20
+32            android:name="br.com.smartv.player.MainActivity"
+32-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:8:19-47
+33            android:configChanges="keyboardHidden|orientation|screenSize"
+33-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:8:86-147
+34            android:exported="true"
+34-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:8:148-171
+35            android:screenOrientation="landscape" >
+35-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:8:48-85
+36            <intent-filter>
+36-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:9:13-12:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:10:17-69
+37-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:10:25-66
+38
+39                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+39-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:11:17-86
+39-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:11:27-83
+40            </intent-filter>
+41            <intent-filter>
+41-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:13:13-16:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:10:17-69
+42-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:10:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:15:17-77
+44-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:15:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <receiver
+48-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:18:9-23:20
+49            android:name="br.com.smartv.player.BootReceiver"
+49-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:18:19-47
+50            android:enabled="true"
+50-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:18:48-70
+51            android:exported="true" >
+51-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:18:71-94
+52            <intent-filter>
+52-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:19:13-22:29
+53                <action android:name="android.intent.action.BOOT_COMPLETED" />
+53-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:20:17-79
+53-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:20:25-76
+54                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+54-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:21:17-86
+54-->/home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:21:25-83
+55            </intent-filter>
+56        </receiver>
+57    </application>
+58
+59</manifest>

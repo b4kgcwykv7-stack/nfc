@@ -1,0 +1,9 @@
+br.com.smartv.player.app-compat-0 /home/runner/work/nfc/nfc/smartv-player-v102/app/build/generated/res/pngs/compat/debug
+br.com.smartv.player.app-compat-1 /home/runner/work/nfc/nfc/smartv-player-v102/app/build/generated/res/resValues/compat/debug
+br.com.smartv.player.app-packageCompatDebugResources-2 /home/runner/work/nfc/nfc/smartv-player-v102/app/build/intermediates/incremental/compatDebug/packageCompatDebugResources/merged.dir
+br.com.smartv.player.app-packageCompatDebugResources-3 /home/runner/work/nfc/nfc/smartv-player-v102/app/build/intermediates/incremental/compatDebug/packageCompatDebugResources/stripped.dir
+br.com.smartv.player.app-compatDebug-4 /home/runner/work/nfc/nfc/smartv-player-v102/app/build/intermediates/merged_res/compatDebug/mergeCompatDebugResources
+br.com.smartv.player.app-compat-5 /home/runner/work/nfc/nfc/smartv-player-v102/app/src/compat/res
+br.com.smartv.player.app-compatDebug-6 /home/runner/work/nfc/nfc/smartv-player-v102/app/src/compatDebug/res
+br.com.smartv.player.app-debug-7 /home/runner/work/nfc/nfc/smartv-player-v102/app/src/debug/res
+br.com.smartv.player.app-main-8 /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/res

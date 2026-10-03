@@ -1,0 +1,3 @@
+br.com.smartv.player:style/AppTheme = 0x7f030000
+br.com.smartv.player:layout/activity_main = 0x7f020000
+br.com.smartv.player:id/web = 0x7f010000

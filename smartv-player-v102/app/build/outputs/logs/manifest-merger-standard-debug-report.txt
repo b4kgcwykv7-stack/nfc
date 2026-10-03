@@ -1,0 +1,108 @@
+-- Merging decision tree log ---
+application
+INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:7:5-24:19
+INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:7:5-24:19
+	android:extractNativeLibs
+		INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml
+	android:label
+		INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:7:115-142
+	android:hardwareAccelerated
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:7:143-177
+	android:allowBackup
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:7:18-45
+	android:theme
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:7:83-114
+	android:usesCleartextTraffic
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:7:46-82
+manifest
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:1:1-25:12
+	package
+		INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:1:11-69
+	android:installLocation
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:1:70-100
+uses-permission#android.permission.INTERNET
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:2:5-67
+	android:name
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:2:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:3:5-81
+	android:name
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:3:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:4:5-68
+	android:name
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:4:22-65
+uses-feature#android.software.leanback
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:5:5-87
+	android:required
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:5:60-84
+	android:name
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:5:19-59
+uses-feature#android.hardware.touchscreen
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:6:5-90
+	android:required
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:6:63-87
+	android:name
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:6:19-62
+activity#br.com.smartv.player.MainActivity
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:8:9-17:20
+	android:screenOrientation
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:8:48-85
+	android:exported
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:8:148-171
+	android:configChanges
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:8:86-147
+	android:name
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:8:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:9:13-12:29
+action#android.intent.action.MAIN
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:10:17-69
+	android:name
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:10:25-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:11:17-86
+	android:name
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:11:27-83
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:13:13-16:29
+category#android.intent.category.LAUNCHER
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:15:27-74
+receiver#br.com.smartv.player.BootReceiver
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:18:9-23:20
+	android:enabled
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:18:48-70
+	android:exported
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:18:71-94
+	android:name
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:18:19-47
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:20:17-79
+	android:name
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:20:25-76
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:21:17-86
+	android:name
+		ADDED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml:21:25-83
+uses-sdk
+INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml
+INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/runner/work/nfc/nfc/smartv-player-v102/app/src/main/AndroidManifest.xml

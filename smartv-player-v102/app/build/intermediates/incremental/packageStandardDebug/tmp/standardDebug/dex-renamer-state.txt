@@ -1,0 +1,4 @@
+#Sat Oct 03 13:40:08 UTC 2026
+base.0=/home/runner/work/nfc/nfc/smartv-player-v102/app/build/intermediates/dex/standardDebug/mergeDexStandardDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
