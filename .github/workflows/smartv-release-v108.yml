@@ -40,6 +40,8 @@ jobs:
           cp smartv-player-v102/app/build/outputs/apk/compat/debug/app-compat-debug.apk output/Smartv-Player-v1.0.8-compat.apk
           sha256sum output/Smartv-Player-v1.0.8.apk > output/Smartv-Player-v1.0.8.sha256.txt
           sha256sum output/Smartv-Player-v1.0.8-compat.apk > output/Smartv-Player-v1.0.8-compat.sha256.txt
+            output/Smartv-Player-v1.0.8-compat.zip
+          cd output && zip -j Smartv-Player-v1.0.8-compat.zip Smartv-Player-v1.0.8-compat.apk && cd ..
 
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
