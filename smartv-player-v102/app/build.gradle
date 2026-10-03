@@ -16,11 +16,13 @@ android {
     productFlavors {
         standard {
             dimension 'edition'
+            manifestPlaceholders = [appLabel: 'Smartv Player']
         }
         compat {
             dimension 'edition'
             applicationIdSuffix '.compat'
             versionNameSuffix '-compat'
+            manifestPlaceholders = [appLabel: 'Smartv Player Compat']
         }
     }
 }
