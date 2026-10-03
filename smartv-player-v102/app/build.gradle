@@ -3,11 +3,24 @@ plugins { id 'com.android.application' }
 android {
     namespace 'br.com.smartv.player'
     compileSdk 35
+
     defaultConfig {
         applicationId 'br.com.smartv.player'
-        minSdk 21
+        minSdk 19
         targetSdk 35
-        versionCode 3
-        versionName '1.0.3'
+        versionCode 108
+        versionName '1.0.8'
+    }
+
+    flavorDimensions 'edition'
+    productFlavors {
+        standard {
+            dimension 'edition'
+        }
+        compat {
+            dimension 'edition'
+            applicationIdSuffix '.compat'
+            versionNameSuffix '-compat'
+        }
     }
 }
