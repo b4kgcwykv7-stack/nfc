@@ -1,0 +1,1 @@
+Publish ZIP fallback for Smartv v1.0.8
